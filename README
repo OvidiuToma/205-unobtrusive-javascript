@@ -1,3 +1,20 @@
 Railscasts Episode #205: Unobtrusive Javascript
-
 http://railscasts.com/episodes/205
+
+SETUP:
+git clone ...
+
+cd 205-unobtrusive-javascript
+cd store
+
+bundle install
+rake db:create
+rake db:migrate
+
+rails s
+
+URLS:
+http://localhost:3000/categories
+http://localhost:3000/products
+
+
