@@ -2,7 +2,7 @@ Railscasts Episode #205: Unobtrusive Javascript
 http://railscasts.com/episodes/205
 
 SETUP:
-git clone ...
+git clone https://github.com/OvidiuToma/205-unobtrusive-javascript.git
 
 cd 205-unobtrusive-javascript
 cd store
