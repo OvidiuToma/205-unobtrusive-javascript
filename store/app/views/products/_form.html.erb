@@ -1,5 +1,7 @@
-<% form_for @product do |f| %>
-  <%= f.error_messages %>
+<%= form_for @product do |f| %>
+  <% f.object.errors.full_messages.each do |msg| %>
+      <p><%= msg %></p>
+  <% end %>
   <p>
     <%= f.label :category_id %><br />
     <%= f.collection_select :category_id, Category.all, :id, :name %>

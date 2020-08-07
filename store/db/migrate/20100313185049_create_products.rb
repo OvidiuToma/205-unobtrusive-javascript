@@ -1,4 +1,4 @@
-class CreateProducts < ActiveRecord::Migration
+class CreateProducts < ActiveRecord::Migration[5.2]
   def self.up
     create_table :products do |t|
       t.integer :category_id
@@ -8,7 +8,7 @@ class CreateProducts < ActiveRecord::Migration
       t.timestamps
     end
   end
-  
+
   def self.down
     drop_table :products
   end
